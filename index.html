@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>praveenbom</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/lightbox.css" rel="stylesheet" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-64087048-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<script>
+$(document).ready(function()
+  {
+  $("#more_publications").hide();
+
+  $("#show_publications").click(function(){
+    $("#publications_box").animate({height:"100%"});
+    $("#show_publications").hide();
+    $("#more_publications").fadeIn(200);
+  });
+  $("#close_publications").click(function(){
+    $("#publications_box").animate({height:"335px"});
+    $("#show_publications").show();
+    $("#more_publications").fadeOut(200);
+  });
+});
+</script>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/lightbox.min.js"></script>
+</head>
+<body>
+<div id="wrapper">
+   <div id="branding">
+   <table width="800">
+     <tr>
+       <td>
+         <h1 class="name"><a href="#" onClick="ga('send', 'event', 'self-link', 'title-click', 'praveen bommannavar title', 1, {'nonInteraction': 1});" title="&lt; praveenbom/&gt;">Praveen&nbsp;Bommannavar</a></h1>
+       </td>
+       <!--
+       <td align="right">
+         <h4><a href="#about" onClick="ga('send', 'event', 'self-link', 'menu-click', 'menu about', 1, {'nonInteraction': 1});" >#about</a></h4>
+         <h4><a href="#publications" onClick="ga('send', 'event', 'self-link', 'menu-click', 'menu publications', 1, {'nonInteraction': 1});">#publications</a></h4>
+         <h4><a href="#contact" onClick="ga('send', 'event', 'self-link', 'menu-click', 'menu contact', 1, {'nonInteraction': 1});">#contact</a></h4>
+       </td> -->
+     </tr>
+   </table>
+   </div>
+   <div id="content">
+    <div class="content_1">
+	<div class="content_1_left">
+    <div id="about_box" style="height:320px">
+	  <h2 id="about">
+       about
+       <span></span>
+      </h2>
+	  <a href="img/headshot.jpg" data-lightbox="image-1" data-title="" onClick="ga('send', 'event', 'photo view', 'profile-pic click', 'profile-pic 2011 San Gregorio', 1, {'nonInteraction': 1});"><img src="img/headshot.jpg" width="165" alt="" /></a>
+	  <p> Praveen currently works on <a href="https://research.google.com/pubs/MachineIntelligence.html" target="_blank" onClick="ga('send', 'event', 'about', 'about current click', 'rec systems', 1, {'nonInteraction': 1});">machine intelligence</a> at <a href="https://photos.google.com" target="_blank" onClick="ga('send', 'event', 'about', 'about current click', 'google', 1, {'nonInteraction': 1});">Google Photos</a>.</p><br/>
+    <p>In the past Praveen has been affiliated with:</p>
+      <ul id="past">
+        <li>&ensp;<a href="https://github.com/twitter/GraphJet/" target="_blank" onClick="ga('send', 'event', 'about', 'about past click', 'recs @ twitter', 1, {'nonInteraction': 1});">Recommendation Systems @ Twitter</a> (2013-2016)</li> 
+        <li>&ensp;<a href="https://or.stanford.edu/" target="_blank" onClick="ga('send', 'event', 'about', 'about past click', 'or @ stanford', 1, {'nonInteraction': 1});">Operations Research @ Stanford</a> (PhD 2013)</li> 
+        <li>&ensp;<a href="https://statistics.stanford.edu" target="_blank" onClick="ga('send', 'event', 'about', 'about past click', 'stats @ stanford', 1, {'nonInteraction': 1});">Statistics @ Stanford</a> (MS 2012)</li> 
+        <li>&ensp;<a href="http://illini4000.org" target="_blank" onClick="ga('send', 'event', 'about', 'about past click', 'illini4000', 1, {'nonInteraction': 1});">Illini4000</a> (Rider 2008)</li>
+        <li>&ensp;<a href="http://www.ece.illinois.edu/" target="_blank" onClick="ga('send', 'event', 'about', 'about past click', 'ee @ uiuc', 1, {'nonInteraction': 1});">Electrical Engineering @UIUC</a> (BS 2007 &amp; MS 2008)</li> 
+      </ul>
+    </div>
+    <div id="publications_box"> <!--style="overflow: hidden; height:335px"--> 
+    <h2 id="publications">
+        publications
+        <span></span>
+       </h2>
+       <h3>2016</h3>
+       <ul>
+         <img src="img/Twitter_logo_blue.png" width="40px"/>
+         <li>Aneesh Sharma, Jerry Jiang, <a href="#" onClick="ga('send', 'event', 'publications', 'praveen bommannavar click', 'praveen bommannavar graphjet' 1, {'nonInteraction': 1});">P. Bommannavar</a>, Brian Larson, <a href="http://www.umiacs.umd.edu/~jimmylin/" target="_blank" onClick="ga('send', 'event', 'publications', 'jimmy lin click', 'jimmy lin graphjet', 1, {'nonInteraction': 1});">J. Lin</a> GraphJet: Real-Time Content Recommendations at Twitter. <i>VLDB</i> [<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0ahUKEwiShPTsw_rRAhUE7oMKHcNnBSkQFgghMAE&url=http%3A%2F%2Fwww.vldb.org%2Fpvldb%2Fvol9%2Fp1281-sharma.pdf&usg=AFQjCNEWrzX11LNy2Qs4hlm8VPN-7-TxNg&sig2=U0GZn9Ff5wZ0pNrD3rbZyg" target="_blank" onClick="ga('send', 'event', 'publications', 'pdf click', 'pdf graphjet', 1, {'nonInteraction': 1});">PDF</a>]</li>
+         <li>&nbsp;</li>
+       </ul>
+       <ul>
+         <img src="img/Twitter_logo_blue.png" width="40px"/>
+         <li><a href="#" onClick="ga('send', 'event', 'publications', 'praveen bommannavar click', 'praveen bommannavar estimating volume' 1, {'nonInteraction': 1});">P. Bommannavar</a>, <a href="http://www.umiacs.umd.edu/~jimmylin/" target="_blank" onClick="ga('send', 'event', 'publications', 'jimmy lin click', 'jimmy lin estimating volume', 1, {'nonInteraction': 1});">J. Lin</a> and <a href="http://anand.typepad.com/datawocky/anand-rajaraman.html" target="_blank" onClick="ga('send', 'event', 'publications', 'anand rajaraman click', 'anand rajaraman estimating volume', 1, {'nonInteraction': 1});">A. Rajaraman</a>. Estimating Topical Volume over Social Media Streams. <i>ACM/SIGAPP Symposium on Applied Computing</i> [<a href="pdf/tweet-filtering.pdf" target="_blank" onClick="ga('send', 'event', 'publications', 'pdf click', 'pdf estimating volume', 1, {'nonInteraction': 1});">PDF</a>, <a href="pdf/tweet-filtering.pdf" target="_blank" onClick="ga('send', 'event', 'publications', 'slides click', 'slides estimating volume', 1, {'nonInteraction': 1});">Slides</a>]</li>
+         <li>&nbsp;</li>
+       </ul>
+       <h3>2014</h3>
+       <ul>
+         <img src="img/Twitter_logo_blue.png" width="40px"/>
+         <li><a href="#" onClick="ga('send', 'event', 'publications', 'praveen bommannavar click', 'praveen bommannavar recall estimation', 1, {'nonInteraction': 1});">P. Bommannavar</a>, <a href="http://people.cs.georgetown.edu/~kolcz/" target="_blank" onClick="ga('send', 'event', 'publications', 'alek kolcz click', 'alek kolcz recall estimation', 1, {'nonInteraction': 1});">A. Kolcz</a>, and <a href="http://anand.typepad.com/datawocky/anand-rajaraman.html" target="_blank" onClick="ga('send', 'event', 'publications', 'anand rajaraman click', 'anand rajaraman recall estimation', 1, {'nonInteraction': 1});">A. Rajaraman</a>. Recall estimation for Rare Topic Retrieval from Large Corpuses. <i>Industry Paper, IEEE Big Data 2014; Washington D.C.</i> [<a href="pdf/recall_est.pdf" target="_blank" onClick="ga('send', 'event', 'publications', 'pdf click', 'pdf recall estimation', 1, {'nonInteraction': 1});">PDF</a>, <a href="pdf/recall_est_pres.pdf" target="_blank" onClick="ga('send', 'event', 'publications', 'slides click', 'slides recall estimation', 1, {'nonInteraction': 1});">Slides</a>]</li>
+         <li>&nbsp;</li>
+         <img src="img/Twitter_logo_blue.png" width="40px"/>
+         <li><a href="http://www.cs.ubc.ca/~goyal/" target="_blank" onClick="ga('send', 'event', 'publications', 'amit goyal click', 'amit goyal user interest', 1, {'nonInteraction': 1});">A. Goyal</a>, <a href="#" onClick="ga('send', 'event', 'publications', 'praveen bommannavar click', 'praveen bommannavar user interest', 1, {'nonInteraction': 1});">P. Bommannavar</a>, <a href="http://www.cs.cmu.edu/~soa/" target="_blank" onClick="ga('send', 'event', 'publications', 'stuart anderson click', 'stuart anderson user interest', 1, {'nonInteraction': 1});">S. Anderson</a>, <a href="http://people.cs.georgetown.edu/~kolcz/" target="_blank" onClick="ga('send', 'event', 'publications', 'alek kolcz click', 'alek kolcz user interest', 1, {'nonInteraction': 1});">A. Kolcz</a> and K. Smith. User Interest Modeling via Seed Set Expansion <i>The Second Workshop on User Engagement Optimization at KDD 2014</i> [<a href="pdf/topic_modeling.pdf" target="_blank" onClick="ga('send', 'event', 'publications', 'pdf click', 'pdf user interest', 1, {'nonInteraction': 1});">PDF</a>, <a href="pdf/topic_modeling_pres.pdf" target="_blank" onClick="ga('send', 'event', 'publications', 'slides click', 'slides user interest', 1, {'nonInteraction': 1});">Slides</a>]</li>
+       </ul>
+       <br/>
+       <!-- <a id="show_publications" onClick="ga('send', 'event', 'publications', 'show more click', 'show more', 1, {'nonInteraction': 1});">Older publications &rarr;</a>
+       <div id="more_publications"> -->
+       <div>
+       <h3>2013</h3>
+       <ul>
+         <img src="img/stanford_logo.jpg" width="40px"/>
+         <li> <a href="#" onClick="ga('send', 'event', 'publications', 'praveen bommannavar click', 'praveen bommannavar deadline aware', 1, {'nonInteraction': 1});">P. Bommannavar</a>, <a href="http://www2.technologyreview.com/tr35/profile.aspx?trid=340" target="_blank" onClick="ga('send', 'event', 'publications', 'john apostolopoulos click', 'john apostolopoulos deadline aware', 1, {'nonInteraction': 1});">J. Apostolopoulos</a>, and <a href="http://www.stanford.edu/~bambos/" target="_blank" onClick="ga('send', 'event', 'publications', 'nick bambos click', 'nick bambos deadline aware', 1, {'nonInteraction': 1});">N. Bambos</a>. Deadline Aware Packet Scheduling in Switches for Multimedia Streaming Applications. <i>Proc. IEEE International Conference on Communications (ICC 2013, June 9-13, 2013; Budapest, Hungary)</i>. [<a href="pdf/deadline_aware.pdf" target="_blank" onClick="ga('send', 'event', 'publications', 'pdf click', 'pdf deadline aware', 1, {'nonInteraction': 1});">PDF</a>]</li>
+         <li>&nbsp;</li>
+         <img src="img/stanford_logo.jpg" width="40px"/>
+         <li><a href="#" onClick="ga('send', 'event', 'publications', 'praveen bommannavar click', 'praveen bommannavar tracking', 1, {'nonInteraction': 1});">P. Bommannavar</a>, <a href="http://www2.technologyreview.com/tr35/profile.aspx?trid=340" target="_blank" onClick="ga('send', 'event', 'publications', 'john apostolopoulos click', 'john apostolopoulos tracking', 1, {'nonInteraction': 1});">J. Apostolopoulos</a>, and <a href="http://www.stanford.edu/~bambos/" target="_blank" onClick="ga('send', 'event', 'publications', 'nick bambos click', 'nick bambos tracking', 1, {'nonInteraction': 1});">N. Bambos</a>. Resource Allocation and Scheduling for Energy Efficient Tracking. <i>Proc. IEEE International Conference on Communications (ICC 2013, June 9-13, 2013; Budapest, Hungary)</i>. [<a href="pdf/tracking.pdf" target="_blank" onClick="ga('send', 'event', 'publications', 'pdf click', 'pdf tracking', 1, {'nonInteraction': 1});">PDF</a>] </li>
+         <li>&nbsp;</li>
+       </ul>
+       <h3>2012</h3>
+       <ul>
+         <img src="img/stanford_logo.jpg" width="40px"/>
+         <li><a href="#" onClick="ga('send', 'event', 'publications', 'praveen bommannavar click', 'praveen bommannavar resource', 1, {'nonInteraction': 1});">P. Bommannavar</a> and <a href="http://www.stanford.edu/~bambos/" target="_blank" onClick="ga('send', 'event', 'publications', 'nick bambos click', 'nick bambos resource', 1, {'nonInteraction': 1});">N. Bambos</a>. Resource Constrained Failure Management in Networked Computing Systems. <i>Proc. IEEE Globecom (Globecom 2012, Dec. 3-7, 2012; Anaheim, CA)</i>. [<a href="pdf/resource.pdf" target="_blank" onClick="ga('send', 'event', 'publications', 'pdf click', 'pdf resource',  1, {'nonInteraction': 1});">PDF</a>] </li>
+         <li>&nbsp;</li>
+         <img src="img/stanford_logo.jpg" width="40px"/>
+         <li><a href="#" onClick="ga('send', 'event', 'publications', 'praveen bommannavar click', 'praveen bommannavar power budgeted', 1, {'nonInteraction': 1});">P. Bommannavar</a>, <a href="http://www.stanford.edu/~bambos/" target="_blank" onClick="ga('send', 'event', 'publications', 'nick bambos click', 'nick bambos power budgeted', 1, {'nonInteraction': 1});">N. Bambos</a>, and <a href="http://www2.technologyreview.com/tr35/profile.aspx?trid=340" target="_blank" onClick="ga('send', 'event', 'publications', 'john apostolopoulos click', 'john apostolopoulos power budgeted', 1, {'nonInteraction': 1});">J. Apostolopoulos</a>. Power budgeted packet scheduling for wireless multimedia. <i>Proc. IEEE International Conference on Communications (ICC 2012, June 10-15, 2012; Ottawa, Canada)</i>. [<a href="pdf/power_budgeted.pdf" target="_blank" onClick="ga('send', 'event', 'publications', 'pdf click', 'pdf power budgeted', 1, {'nonInteraction': 1});">PDF</a>] </li>
+         <li>&nbsp;</li>
+       </ul>
+ 
+       <h3>2011</h3>
+       <ul>
+         <img src="img/stanford_logo.jpg" width="40px"/>
+         <li><a href="#" onClick="ga('send', 'event', 'publications', 'praveen bommannavar click', 'praveen bommannavar security', 1, {'nonInteraction': 1});">P. Bommannavar</a>, <a href="http://www.tansu.alpcan.org/" target="_blank" onClick="ga('send', 'event', 'publications', 'tansu alpcan click', 'tansu alpcan security', 1, {'nonInteraction': 1});">T. Alpcan</a>, and <a href="http://www.stanford.edu/~bambos/" target="_blank" onClick="ga('send', 'event', 'publications', 'nick bambos click', 'nick bambos security', 1, {'nonInteraction': 1});">N. Bambos</a>. Security Risk Management via Dynamic Games with Learning. <i>Proc. IEEE International Conference on Communications (ICC 2011, June 5-9, 2011; Kyoto, Japan).</i> [<a href="pdf/security.pdf" target="_blank" onClick="ga('send', 'event', 'publications', 'pdf click', 'pdf security', 1, {'nonInteraction': 1});">PDF</a>] </li>
+         <li>&nbsp;</li>
+       </ul>
+       <h3>2008</h3>
+       <ul>
+         <img src="img/ui-logo-small.gif" width="40px"/>
+         <li><a href="#" onClick="ga('send', 'event', 'publications', 'praveen bommannavar click', 'praveen bommannavar optimal control', 1, {'nonInteraction': 1});">P. Bommannavar</a> and <a href ="http://tamerbasar.csl.illinois.edu/" target="_blank" onClick="ga('send', 'event', 'publications', 'tamer basar click', 'tamer basar optimal control', 1, {'nonInteraction': 1});">T. Ba&#351;ar</a>. Optimal control with limited control actions and lossy transmissions. <i>Proc. 47th IEEE Conference on Decision and Control (CDC'08, Dec 9-11, 2008; Cancun, Mexico).</i> [<a href="" onClick="ga('send', 'event', 'publications', 'pdf click', 'pdf optimal control', 1, {'nonInteraction': 1});">PDF</a>] </li>
+         <li>&nbsp;</li>
+         <img src="img/ui-logo-small.gif" width="40px"/>
+         <li><a href="#" onClick="ga('send', 'event', 'publications', 'praveen bommannavar click', 'praveen bommannavar optimal estimation', 1, {'nonInteraction': 1});">P. Bommannavar</a> and <a href="http://tamerbasar.csl.illinois.edu/" target="_blank" onClick="ga('send', 'event', 'publications', 'tamer basar click', 'tamer basar optimal estimation', 1, {'nonInteraction': 1});">T. Ba&#351;ar</a>. Optimal estimation over channels with limits on usage. <i>Proc. 17th IFAC World Congress (July 6 - 11, 2008, Seoul, Korea).</i> [<a href="" onClick="ga('send', 'event', 'publications', 'pdf click', 'pdf optimal estimation', 1, {'nonInteraction': 1});">PDF</a>]</li>
+         <li>&nbsp;</li>
+       </ul>
+
+       <!--<a href="#publications" id="close_publications" onClick="ga('send', 'event', 'publications', 'show fewer click', 'show fewer', 1, {'nonInteraction': 1});">&larr;Restrict to recent publications</a> -->
+    </div>
+    </div>
+     <br/>
+    <!--<h2 id="contact">
+        contact
+        <span></span>
+       </h2>
+       <table>
+         <tr>
+           <td>
+             <h3>twitter</h3>
+             <ul><li><a href="https://twitter.com/praveenbom" target="_blank" onClick="ga('send', 'event', 'contact', 'twitter click', '@praveenbom', 1, {'nonInteraction': 1});">@praveenbom</a></li></ul>
+           </td>
+           <td>
+             <h3>&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+           </td>
+           <td>
+             <h3>facebook</h3>
+             <ul><li><a href="https://www.facebook.com/praveen.bommannavar" target="_blank" onClick="ga('send', 'event', 'contact', 'facebook click', 'praveen.bommannavar', 1, {'nonInteraction': 1});">praveen.bommannavar</a></li></ul>
+           </td>
+           <td>
+             <h3>&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+           </td>
+           <td>
+             <h3>gmail</h3>
+             <ul><li>praveenbom [at] gmail [dot] com</li></ul>
+           </td>
+         </tr>
+       </table> -->
+  </div>
+    <br class="clear" />
+   </div>
+   </div>
+ </div> 
+    <div id="footerContainer">
+    <p>
+     <label><i>Last modified: June 16, 2018</i></label>
+ <span></span>
+</p>
+   </div>
+</body>
+</html>
